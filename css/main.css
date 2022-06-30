@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-size: 15px;
+  font-family: "League Spartan", sans-serif;
+  min-height: 100vh;
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container {
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.container .users {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.container .users .left-box {
+  width: 35%;
+}
+
+.container .users .left-box h2 {
+  font-size: 50px;
+  color: #502050;
+  margin-bottom: 15px;
+}
+
+.container .users .left-box p {
+  color: #937b92;
+  line-height: 1.5;
+}
+
+.container .users .right-box .row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 10px;
+  border-radius: 5px;
+  background: #f7f2f7;
+}
+
+.container .users .right-box .row:first-of-type {
+  margin-left: -80px;
+}
+
+.container .users .right-box .row:nth-child(2) {
+  margin-left: -40px;
+}
+
+.container .users .right-box .row:not(:last-of-type) {
+  margin-bottom: 10px;
+}
+
+.container .users .right-box .row .icons {
+  margin-right: 10px;
+  letter-spacing: 7px;
+}
+
+.container .users .right-box .row p {
+  color: #502050;
+  font-weight: 700;
+}
+
+.container .testmonilas {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (minmax(300px, 1fr))[auto-fill];
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  gap: 30px;
+}
+
+.container .testmonilas .box {
+  padding: 25px;
+  border-radius: 7px;
+  background: #502050;
+}
+
+.container .testmonilas .box:nth-child(2) {
+  margin-top: 30px;
+}
+
+.container .testmonilas .box:nth-child(3) {
+  margin-top: 60px;
+}
+
+.container .testmonilas .box .person {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-bottom: 15px;
+}
+
+.container .testmonilas .box .person .image-box {
+  margin-left: 15px;
+}
+
+.container .testmonilas .box .person .image-box img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.container .testmonilas .box .person .text-box h4 {
+  color: white;
+  margin-bottom: 3px;
+}
+
+.container .testmonilas .box .person .text-box span {
+  color: #ee68a4;
+  font-size: 12px;
+}
+
+.container .testmonilas .box .content q {
+  font-style: italic;
+  line-height: 1.5;
+  color: #f7f2f7;
+}
+
+@media (max-width: 767px) {
+  .users .left-box {
+    width: 100% !important;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .users .left-box h2 {
+    font-size: 40px !important;
+  }
+  .users .right-box {
+    width: 100%;
+  }
+  .users .right-box .row {
+    text-align: center;
+    margin-left: 0 !important;
+  }
+  .users .right-box .row .icons {
+    width: 100%;
+    margin-right: 0 !important;
+    margin-bottom: 10px;
+  }
+  .users .right-box .row p {
+    width: 100%;
+  }
+  .testmonilas .box {
+    margin-top: 0 !important;
+  }
+}
+/*# sourceMappingURL=main.css.map */
